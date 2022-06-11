@@ -1,0 +1,409 @@
+.content {
+  margin-top: 30px;
+
+  .top-sections {
+    background-color: #f5f5f7;
+
+    margin-top: 30px;
+    padding: 30px 0 60px 0;
+
+    &__cards {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 17px;
+
+      margin-top: 30px;
+    }
+
+    &__title {
+      font-size: 20px;
+      font-weight: 600;
+    }
+  }
+
+  .section-card {
+    min-height: 200px;
+    position: relative;
+
+    background-color: $white-color;
+    border-radius: 4px;
+
+    font-size: 20px;
+    font-weight: 600;
+
+    padding: 20px 18px;
+
+    transition: ease-in 0.24s;
+
+    cursor: pointer;
+    &:hover {
+      .section-card__descr {
+        color: $white-color;
+      }
+    }
+
+    &__descr {
+      font-size: 12px;
+      font-weight: 400;
+      color: #6e6e73;
+      transition: ease-in 0.24s;
+    }
+
+    &__img {
+      img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+
+        // width: 100%;
+        // height: 100%;
+      }
+    }
+
+    &:hover {
+      background-color: $accent-color;
+      color: $white-color;
+    }
+  }
+
+  .popular-items {
+    padding: 30px 0;
+    &__title {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    &__carousel {
+      display: flex;
+      margin-top: 60px;
+
+      .wrapper {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 25px;
+
+        margin-left: 21px;
+        margin-right: 21px;
+      }
+    }
+  }
+
+  .carousel-btn {
+    width: 85px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+      background-color: #c4c4c4;
+
+      .arrow-left,
+      .arrow-right {
+        stroke: $white-color;
+        fill: transparent;
+      }
+    }
+
+    .arrow-left,
+    .arrow-right {
+      cursor: pointer;
+
+      stroke: #c4c4c4;
+      fill: transparent;
+
+      width: 24px;
+      height: 24px;
+
+      &:hover {
+        stroke: $white-color;
+        fill: transparent;
+      }
+    }
+  }
+
+  .popular-card {
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+
+    max-width: 298px;
+    height: fit-content;
+
+    &__img {
+      margin: 25px 23px 0 23px;
+    }
+
+    &__descr {
+      margin: 30px 18px 20px 18px;
+    }
+
+    &__subtitle {
+      color: $text-grey;
+      font-size: 12px;
+      font-weight: 400;
+    }
+
+    &__title {
+      font-size: 14px;
+      font-weight: 400;
+
+      margin-top: 8px;
+    }
+
+    &__middle {
+      display: flex;
+      justify-content: space-between;
+
+      margin-top: 18px;
+
+      span {
+        margin-left: 8px;
+        margin-right: 8px;
+      }
+    }
+
+    &__price {
+      font-size: 18px;
+      font-weight: 700;
+
+      span {
+        font-weight: 400;
+        color: $text-grey;
+      }
+    }
+
+    &__count {
+      display: flex;
+      align-items: center;
+      svg {
+        margin: auto;
+      }
+      .arrow-left,
+      .arrow-right {
+        stroke: #c4c4c4;
+        fill: transparent;
+
+        width: 24px;
+        height: 24px;
+
+        &:hover {
+          stroke: red;
+        }
+      }
+    }
+
+    &__bottom {
+      display: flex;
+
+      margin-top: 18px;
+
+      .in-stock {
+        font-family: "Roboto", Arial, sans-serif;
+
+        display: flex;
+        align-items: center;
+
+        font-size: 12px;
+        color: $text-grey;
+
+        margin-right: 24px;
+      }
+    }
+
+    .cart-icon {
+      width: 19px;
+      height: 19px;
+
+      fill: $white-color;
+
+      margin-right: 8px;
+    }
+
+    .add-to-cart__btn {
+      display: flex;
+      align-items: center;
+
+      background-color: $btn-red-bg;
+      color: $white-color;
+      border-radius: 4px;
+
+      padding: 13px 18px;
+
+      text-align: center;
+      font-family: "Roboto", Arial, sans-serif;
+
+      transition: ease-in 0.24s;
+
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  }
+}
+
+.benefits {
+  background-color: $accent-color;
+
+  border-radius: 4px;
+
+  padding: 60px 0;
+
+  color: $white-color;
+
+  &__title {
+    display: flex;
+    align-items: center;
+
+    white-space: nowrap;
+
+    margin-right: 200px;
+
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  &__content {
+    display: flex;
+  }
+
+  .benefit {
+    max-width: 220px;
+    margin-left: 60px;
+
+    &__descr {
+      font-size: 14px;
+      font-weight: 700;
+
+      margin-top: 8px;
+    }
+
+    &-icon {
+      width: 70px;
+      height: 70px;
+    }
+  }
+  .container {
+    display: flex;
+  }
+}
+
+.about {
+  background-color: #f5f5f7;
+
+  &-wrapper {
+    display: flex;
+  }
+
+  &__map {
+    width: 100%;
+  }
+
+  .contacts {
+    padding: 118px 0 118px 220px;
+    min-width: 50%;
+    &__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 92px;
+      margin-top: 40px;
+
+      .tel {
+        font-size: 18px;
+      }
+    }
+
+    a {
+      display: flex;
+    }
+
+    svg {
+      margin-right: 12px;
+    }
+
+    &-icon {
+      width: 18px;
+      height: 18px;
+    }
+
+    &__title {
+      font-size: 20px;
+      font-weight: 600;
+    }
+  }
+}
+
+.reviews {
+  padding: 90px 0;
+  &-header {
+    display: flex;
+    &__title {
+      font-size: 20px;
+      font-weight: 600;
+
+      margin-right: 6px;
+    }
+  }
+
+  .arrow-left,
+  .arrow-right {
+    width: 24px;
+    height: 24px;
+    margin: 0 15px;
+
+    fill: transparent;
+    stroke: #c4c4c4;
+
+    &:hover {
+      stroke: $accent-color;
+    }
+  }
+}
+
+.review {
+  display: flex;
+
+  &-img {
+    display: flex;
+
+    margin: 16px 0 8px 0;
+
+    img {
+      margin-right: 4px;
+    }
+  }
+
+  &-wrapper {
+    margin-top: 60px;
+    display: flex;
+
+    &__avatar {
+      background-color: #f5f5f5;
+      width: 51px;
+      height: 51px;
+      border-radius: 35px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      margin-right: 18px;
+    }
+
+    &__main {
+      max-width: 261px;
+    }
+
+    .review-text {
+      display: -webkit-box;
+      -webkit-line-clamp: 7;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .review-star {
+      width: 18px;
+      height: 18px;
+    }
+  }
+}

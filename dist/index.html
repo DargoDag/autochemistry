@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Автохим</title>
+    <link rel="stylesheet" href="css/style.min.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-top">
+          <a href="#" class="header-top__logo">
+            <picture><source srcset="img/header-logo.webp" type="image/webp"><img src="img/header-logo.png" alt="" /></picture>
+          </a>
+          <ul class="header-top__menu-items">
+            <li class="menu-item">Главная</li>
+            <li class="menu-item">Акции</li>
+            <li class="menu-item">Подбор масел</li>
+            <li class="menu-item">Доставка и оплата</li>
+            <li class="menu-item">Часто задаваемые вопросы</li>
+            <li class="menu-item">О компании</li>
+            <li class="menu-item">Новости</li>
+            <li class="menu-item">Контакты</li>
+          </ul>
+          <div class="header-top__auth">
+            <div class="cart">
+              <svg class="cart-icon">
+                <use xlink:href="/img/sprites/sprite-noattr.svg#cart"></use>
+              </svg>
+            </div>
+            <div class="profile">
+              <svg class="profile-icon">
+                <use xlink:href="/img/sprites/sprite-noattr.svg#profile"></use>
+              </svg>
+            </div>
+            <div class="auth__btns">
+              <span class="login-btn">Вход</span>
+              <span class="signup-btn">Регистрация</span>
+            </div>
+          </div>
+        </div>
+        <div class="header-bottom">
+          <button class="catalog-btn">
+            <span>Каталог товаров</span>
+            <span>
+              <svg class="catalog-btn__icon">
+                <use
+                  xlink:href="/img/sprites/sprite-noattr.svg#catalog-icon"
+                ></use>
+              </svg>
+            </span>
+          </button>
+          <div class="header-bottom__search">
+            <form class="search-input">
+              <input
+                type="text"
+                class="input"
+                placeholder="Введите текст для поиска"
+              />
+              <button class="search-btn">
+                <svg class="search-icon">
+                  <use
+                    xlink:href="/img/sprites/sprite-noattr.svg#search-icon"
+                  ></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+          <div class="header-bottom__tel">
+            <a href="tel:71234567890">+7 (123) 456 78-90</a>
+            <button class="callback-btn">Заказать обратный звонок</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="content">
+        <div class="container">
+          <div class="banner">
+            <picture><source srcset="img/banner.webp" type="image/webp"><img src="img/banner.jpg" alt="banner" /></picture>
+          </div>
+        </div>
+        <div class="top-sections">
+          <div class="container">
+            <div class="top-sections__title">Топ разделы каталога</div>
+            <div class="top-sections__cards">
+              <div class="section-card">
+                <div class="section-card__title">Автомасла</div>
+                <div class="section-card__descr">1 240 товаров</div>
+                <div class="section-card__img">
+                  <picture><source srcset="img/oil.webp" type="image/webp"><img src="img/oil.png" alt="oil" /></picture>
+                </div>
+              </div>
+              <div class="section-card">
+                <div class="section-card__title">Тосол и антифриз</div>
+                <div class="section-card__descr">1 240 товаров</div>
+                <div class="section-card__img">
+                  <picture><source srcset="img/tosol.webp" type="image/webp"><img src="img/tosol.png" alt="oil" /></picture>
+                </div>
+              </div>
+              <div class="section-card">
+                <div class="section-card__title">Смазки</div>
+                <div class="section-card__descr">1 240 товаров</div>
+                <div class="section-card__img">
+                  <picture><source srcset="img/lubricants.webp" type="image/webp"><img src="img/lubricants.png" alt="oil" /></picture>
+                </div>
+              </div>
+              <div class="section-card">
+                <div class="section-card__title">Спецжидкости</div>
+                <div class="section-card__descr">1 240 товаров</div>
+                <div class="section-card__img">
+                  <picture><source srcset="img/liquids.webp" type="image/webp"><img src="img/liquids.png" alt="oil" /></picture>
+                </div>
+              </div>
+              <div class="section-card">
+                <div class="section-card__title">Автохимия</div>
+                <div class="section-card__descr">1 240 товаров</div>
+                <div class="section-card__img">
+                  <picture><source srcset="img/autochemistry.webp" type="image/webp"><img src="img/autochemistry.png" alt="oil" /></picture>
+                </div>
+              </div>
+              <div class="section-card">
+                <div class="section-card__title">Автозапчасти</div>
+                <div class="section-card__descr">1 240 товаров</div>
+                <div class="section-card__img">
+                  <picture><source srcset="img/parts.webp" type="image/webp"><img src="img/parts.png" alt="oil" /></picture>
+                </div>
+              </div>
+              <div class="section-card">
+                <div class="section-card__title">Расходные материалы</div>
+                <div class="section-card__descr">1 240 товаров</div>
+                <div class="section-card__img">
+                  <picture><source srcset="img/materials.webp" type="image/webp"><img src="img/materials.png" alt="oil" /></picture>
+                </div>
+              </div>
+              <div class="section-card">
+                <div class="section-card__title">Аксессуары</div>
+                <div class="section-card__descr">1 240 товаров</div>
+                <div class="section-card__img">
+                  <picture><source srcset="img/accessories.webp" type="image/webp"><img src="img/accessories.png" alt="oil" /></picture>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="popular-items">
+          <div class="container">
+            <div class="popular-items__title">Популярные товары</div>
+            <div class="popular-items__carousel">
+              <button class="carousel-btn">
+                <svg class="arrow-left">
+                  <use
+                    xlink:href="/img/sprites/sprite-noattr.svg#arrow-left"
+                  ></use>
+                </svg>
+              </button>
+              <div class="wrapper">
+                <div class="popular-card">
+                  <div class="popular-card__img">
+                    <picture><source srcset="img/gazpromneft.webp" type="image/webp"><img src="img/gazpromneft.jpg" alt="gazpromneft-oil" /></picture>
+                  </div>
+                  <div class="popular-card__descr">
+                    <div class="popular-card__subtitle">Газпромнефть</div>
+                    <div class="popular-card__title">
+                      Масло веретенное Gazpromneft И-20А 10 л 2389905141
+                    </div>
+                    <div class="popular-card__middle">
+                      <div class="popular-card__price">
+                        2 377.62
+                        <span>₽</span>
+                      </div>
+                      <div class="popular-card__count">
+                        <button>
+                          <svg class="arrow-left">
+                            <use
+                              xlink:href="/img/sprites/sprite-noattr.svg#arrow-left"
+                            ></use>
+                          </svg>
+                        </button>
+                        <span>1</span>
+                        <button>
+                          <svg class="arrow-right">
+                            <use
+                              xlink:href="/img/sprites/sprite-noattr.svg#arrow-right"
+                            ></use>
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="popular-card__bottom">
+                      <div class="in-stock">В наличие 15шт.</div>
+                      <button class="add-to-cart__btn">
+                        <svg class="cart-icon">
+                          <use
+                            xlink:href="/img/sprites/sprite-noattr.svg#cart"
+                          ></use>
+                        </svg>
+                        В корзину
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="popular-card">
+                  <div class="popular-card__img">
+                    <picture><source srcset="img/gazpromneft.webp" type="image/webp"><img src="img/gazpromneft.jpg" alt="gazpromneft-oil" /></picture>
+                  </div>
+                  <div class="popular-card__descr">
+                    <div class="popular-card__subtitle">Газпромнефть</div>
+                    <div class="popular-card__title">
+                      Масло веретенное Gazpromneft И-20А 10 л 2389905141
+                    </div>
+                    <div class="popular-card__middle">
+                      <div class="popular-card__price">
+                        2 377.62
+                        <span>₽</span>
+                      </div>
+                      <div class="popular-card__count">
+                        <button>
+                          <svg class="arrow-left">
+                            <use
+                              xlink:href="/img/sprites/sprite-noattr.svg#arrow-left"
+                            ></use>
+                          </svg>
+                        </button>
+                        <span>1</span>
+                        <button>
+                          <svg class="arrow-right">
+                            <use
+                              xlink:href="/img/sprites/sprite-noattr.svg#arrow-right"
+                            ></use>
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="popular-card__bottom">
+                      <div class="in-stock">В наличие 15шт.</div>
+                      <button class="add-to-cart__btn">
+                        <svg class="cart-icon">
+                          <use
+                            xlink:href="/img/sprites/sprite-noattr.svg#cart"
+                          ></use>
+                        </svg>
+                        В корзину
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="popular-card">
+                  <div class="popular-card__img">
+                    <picture><source srcset="img/gazpromneft.webp" type="image/webp"><img src="img/gazpromneft.jpg" alt="gazpromneft-oil" /></picture>
+                  </div>
+                  <div class="popular-card__descr">
+                    <div class="popular-card__subtitle">Газпромнефть</div>
+                    <div class="popular-card__title">
+                      Масло веретенное Gazpromneft И-20А 10 л 2389905141
+                    </div>
+                    <div class="popular-card__middle">
+                      <div class="popular-card__price">
+                        2 377.62
+                        <span>₽</span>
+                      </div>
+                      <div class="popular-card__count">
+                        <button>
+                          <svg class="arrow-left">
+                            <use
+                              xlink:href="/img/sprites/sprite-noattr.svg#arrow-left"
+                            ></use>
+                          </svg>
+                        </button>
+                        <span>1</span>
+                        <button>
+                          <svg class="arrow-right">
+                            <use
+                              xlink:href="/img/sprites/sprite-noattr.svg#arrow-right"
+                            ></use>
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="popular-card__bottom">
+                      <div class="in-stock">В наличие 15шт.</div>
+                      <button class="add-to-cart__btn">
+                        <svg class="cart-icon">
+                          <use
+                            xlink:href="/img/sprites/sprite-noattr.svg#cart"
+                          ></use>
+                        </svg>
+                        В корзину
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="popular-card">
+                  <div class="popular-card__img">
+                    <picture><source srcset="img/gazpromneft.webp" type="image/webp"><img src="img/gazpromneft.jpg" alt="gazpromneft-oil" /></picture>
+                  </div>
+                  <div class="popular-card__descr">
+                    <div class="popular-card__subtitle">Газпромнефть</div>
+                    <div class="popular-card__title">
+                      Масло веретенное Gazpromneft И-20А 10 л 2389905141
+                    </div>
+                    <div class="popular-card__middle">
+                      <div class="popular-card__price">
+                        2 377.62
+                        <span>₽</span>
+                      </div>
+                      <div class="popular-card__count">
+                        <button>
+                          <svg class="arrow-left">
+                            <use
+                              xlink:href="/img/sprites/sprite-noattr.svg#arrow-left"
+                            ></use>
+                          </svg>
+                        </button>
+                        <span>1</span>
+                        <button>
+                          <svg class="arrow-right">
+                            <use
+                              xlink:href="/img/sprites/sprite-noattr.svg#arrow-right"
+                            ></use>
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="popular-card__bottom">
+                      <div class="in-stock">В наличие 15шт.</div>
+                      <button class="add-to-cart__btn">
+                        <svg class="cart-icon">
+                          <use
+                            xlink:href="/img/sprites/sprite-noattr.svg#cart"
+                          ></use>
+                        </svg>
+                        В корзину
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-btn">
+                <svg class="arrow-right">
+                  <use
+                    xlink:href="/img/sprites/sprite-noattr.svg#arrow-right"
+                  ></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="benefits">
+          <div class="container">
+            <div class="benefits__title">Наши преимущества</div>
+            <div class="benefits__content">
+              <div class="benefit">
+                <svg class="truck-icon benefit-icon">
+                  <use xlink:href="/img/sprites/sprite.svg#truck"></use>
+                </svg>
+                <div class="benefit__descr">
+                  Прямые поставки от производителей
+                </div>
+              </div>
+              <div class="benefit">
+                <svg class="cube-icon benefit-icon">
+                  <use xlink:href="/img/sprites/sprite.svg#cube"></use>
+                </svg>
+                <div class="benefit__descr">
+                  Официальные допуски производителей
+                </div>
+              </div>
+              <div class="benefit">
+                <svg class="like-icon benefit-icon">
+                  <use xlink:href="/img/sprites/sprite.svg#like"></use>
+                </svg>
+                <div class="benefit__descr">
+                  Официальные допуски производителей
+                </div>
+              </div>
+              <div class="benefit">
+                <svg class="route-icon benefit-icon">
+                  <use xlink:href="/img/sprites/sprite.svg#route"></use>
+                </svg>
+                <div class="benefit__descr">
+                  Доставка по Татарстану и соседние регионы
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="reviews">
+          <div class="container">
+            <div class="reviews-header">
+              <div class="reviews-header__title">Отзывы</div>
+              <button class="review-header__arrow">
+                <svg class="arrow-left">
+                  <use
+                    xlink:href="/img/sprites/sprite-noattr.svg#arrow-left"
+                  ></use>
+                </svg>
+              </button>
+              <button class="review-header__arrow">
+                <svg class="arrow-right">
+                  <use
+                    xlink:href="/img/sprites/sprite-noattr.svg#arrow-right"
+                  ></use>
+                </svg>
+              </button>
+            </div>
+            <div class="review-wrapper">
+              <div class="review">
+                <div class="review-wrapper__avatar">
+                  <picture><source srcset="img/avatar.webp" type="image/webp"><img src="img/avatar.png" alt="avatar" /></picture>
+                </div>
+                <div class="review-wrapper__main">
+                  <div class="review-rating">
+                    <svg class="review-star" fill="black">
+                      <use
+                        xlink:href="/img/sprites/sprite-noattr.svg#star"
+                      ></use>
+                    </svg>
+                    <svg class="review-star" fill="black">
+                      <use
+                        xlink:href="/img/sprites/sprite-noattr.svg#star"
+                      ></use>
+                    </svg>
+                    <svg class="review-star" fill="black">
+                      <use
+                        xlink:href="/img/sprites/sprite-noattr.svg#star"
+                      ></use>
+                    </svg>
+                    <svg
+                      class="review-star"
+                      fill="transparent"
+                      stroke="#c4c4c4"
+                    >
+                      <use
+                        xlink:href="/img/sprites/sprite-noattr.svg#star"
+                      ></use>
+                    </svg>
+                    <svg
+                      class="review-star"
+                      fill="transparent"
+                      stroke="#c4c4c4"
+                    >
+                      <use
+                        xlink:href="/img/sprites/sprite-noattr.svg#star"
+                      ></use>
+                    </svg>
+                    <svg
+                      class="review-star"
+                      fill="transparent"
+                      stroke="#c4c4c4"
+                    >
+                      <use
+                        xlink:href="/img/sprites/sprite-noattr.svg#star"
+                      ></use>
+                    </svg>
+                  </div>
+                  <div class="review-img"></div>
+                  <div class="review-text">
+                    Maecenas dignissim justo eget nulla rutrum molestie.
+                    Maecenas lobortis sem dui, vel rutrum risus tincidunt
+                    ullamcorper. Maecenas dignissim justo eget nulla rutrum
+                    molestie. Maecenas lobortis sem dui, vel rutrum risus
+                    tincidunt ullamcorper Maecenas dignissim justo eget nulla
+                    rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus
+                    tincidunt ullamcorper. Maecenas dignissim justo eget nulla
+                    rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus
+                    tincidunt ullamcorper...
+                  </div>
+                </div>
+              </div>
+              <div class="review">
+                <div class="review-wrapper__avatar">
+                  <picture><source srcset="img/avatar.webp" type="image/webp"><img src="img/avatar.png" alt="avatar" /></picture>
+                </div>
+                <div class="review-wrapper__main">
+                  <div class="review-rating">
+                    <svg class="review-star" fill="black">
+                      <use
+                        xlink:href="/img/sprites/sprite-noattr.svg#star"
+                      ></use>
+                    </svg>
+                    <svg class="review-star" fill="black">
+                      <use
+                        xlink:href="/img/sprites/sprite-noattr.svg#star"
+                      ></use>
+                    </svg>
+                    <svg class="review-star" fill="black">
+                      <use
+                        xlink:href="/img/sprites/sprite-noattr.svg#star"
+                      ></use>
+                    </svg>
+                    <svg
+                      class="review-star"
+                      fill="transparent"
+                      stroke="#c4c4c4"
+                    >
+                      <use
+                        xlink:href="/img/sprites/sprite-noattr.svg#star"
+                      ></use>
+                    </svg>
+                    <svg
+                      class="review-star"
+                      fill="transparent"
+                      stroke="#c4c4c4"
+                    >
+                      <use
+                        xlink:href="/img/sprites/sprite-noattr.svg#star"
+                      ></use>
+                    </svg>
+                    <svg
+                      class="review-star"
+                      fill="transparent"
+                      stroke="#c4c4c4"
+                    >
+                      <use
+                        xlink:href="/img/sprites/sprite-noattr.svg#star"
+                      ></use>
+                    </svg>
+                  </div>
+                  <div class="review-img"></div>
+                  <div class="review-text">
+                    Maecenas dignissim justo eget nulla rutrum molestie.
+                    Maecenas lobortis sem dui, vel rutrum risus tincidunt
+                    ullamcorper.
+                  </div>
+                </div>
+              </div>
+              <div class="review">
+                <div class="review-wrapper__avatar">
+                  <picture><source srcset="img/avatar.webp" type="image/webp"><img src="img/avatar.png" alt="avatar" /></picture>
+                </div>
+                <div class="review-wrapper__main">
+                  <div class="review-rating">
+                    <svg class="review-star" fill="black">
+                      <use
+                        xlink:href="/img/sprites/sprite-noattr.svg#star"
+                      ></use>
+                    </svg>
+                    <svg class="review-star" fill="black">
+                      <use
+                        xlink:href="/img/sprites/sprite-noattr.svg#star"
+                      ></use>
+                    </svg>
+                    <svg class="review-star" fill="black">
+                      <use
+                        xlink:href="/img/sprites/sprite-noattr.svg#star"
+                      ></use>
+                    </svg>
+                    <svg
+                      class="review-star"
+                      fill="transparent"
+                      stroke="#c4c4c4"
+                    >
+                      <use
+                        xlink:href="/img/sprites/sprite-noattr.svg#star"
+                      ></use>
+                    </svg>
+                    <svg
+                      class="review-star"
+                      fill="transparent"
+                      stroke="#c4c4c4"
+                    >
+                      <use
+                        xlink:href="/img/sprites/sprite-noattr.svg#star"
+                      ></use>
+                    </svg>
+                    <svg
+                      class="review-star"
+                      fill="transparent"
+                      stroke="#c4c4c4"
+                    >
+                      <use
+                        xlink:href="/img/sprites/sprite-noattr.svg#star"
+                      ></use>
+                    </svg>
+                  </div>
+                  <div class="review-img">
+                    <picture><source srcset="img/review-img1.webp" type="image/webp"><img src="img/review-img1.png" alt="review-img" /></picture>
+                    <picture><source srcset="img/review-img2.webp" type="image/webp"><img src="img/review-img2.png" alt="review-img" /></picture>
+                  </div>
+                  <div class="review-text">
+                    Maecenas dignissim justo eget nulla rutrum molestie.
+                  </div>
+                </div>
+              </div>
+              <div class="review">
+                <div class="review-wrapper__avatar">
+                  <picture><source srcset="img/avatar.webp" type="image/webp"><img src="img/avatar.png" alt="avatar" /></picture>
+                </div>
+                <div class="review-wrapper__main">
+                  <div class="review-rating">
+                    <svg class="review-star" fill="black">
+                      <use
+                        xlink:href="/img/sprites/sprite-noattr.svg#star"
+                      ></use>
+                    </svg>
+                    <svg class="review-star" fill="black">
+                      <use
+                        xlink:href="/img/sprites/sprite-noattr.svg#star"
+                      ></use>
+                    </svg>
+                    <svg class="review-star" fill="black">
+                      <use
+                        xlink:href="/img/sprites/sprite-noattr.svg#star"
+                      ></use>
+                    </svg>
+                    <svg
+                      class="review-star"
+                      fill="transparent"
+                      stroke="#c4c4c4"
+                    >
+                      <use
+                        xlink:href="/img/sprites/sprite-noattr.svg#star"
+                      ></use>
+                    </svg>
+                    <svg
+                      class="review-star"
+                      fill="transparent"
+                      stroke="#c4c4c4"
+                    >
+                      <use
+                        xlink:href="/img/sprites/sprite-noattr.svg#star"
+                      ></use>
+                    </svg>
+                    <svg
+                      class="review-star"
+                      fill="transparent"
+                      stroke="#c4c4c4"
+                    >
+                      <use
+                        xlink:href="/img/sprites/sprite-noattr.svg#star"
+                      ></use>
+                    </svg>
+                  </div>
+                  <div class="review-img"></div>
+                  <div class="review-text">
+                    Maecenas dignissim justo eget nulla rutrum molestie.
+                    Maecenas lobortis sem dui, vel rutrum risus tincidunt
+                    ullamcorper. Maecenas dignissim justo eget nulla rutrum
+                    molestie. Maecenas lobortis sem dui, vel rutrum risus
+                    tincidunt ullamcorper Maecenas dignissim justo eget nulla
+                    rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus
+                    tincidunt ullamcorper. Maecenas dignissim justo eget nulla
+                    rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus
+                    tincidunt ullamcorper...
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about">
+          <div class="about-wrapper">
+            <div class="contacts">
+              <div class="contacts__title">Контакты</div>
+              <div class="contacts__content">
+                <a class="tel" href="tel:71234567890">
+                  <span
+                    ><svg class="tel-icon contacts-icon">
+                      <use xlink:href="/img/sprites/sprite.svg#tel"></use>
+                    </svg>
+                  </span>
+                  <b>+7 (123) 456 78-90</b>
+                </a>
+                <a href="#">
+                  <span
+                    ><svg class="map-icon contacts-icon">
+                      <use xlink:href="/img/sprites/sprite.svg#map"></use>
+                    </svg>
+                  </span>
+                  Simple adress
+                </a>
+                <a href="mailto:simplemail@gmail.com">
+                  <span
+                    ><svg class="mail-icon contacts-icon">
+                      <use xlink:href="/img/sprites/sprite.svg#mail"></use>
+                    </svg>
+                  </span>
+                  simplemail@gmail.com
+                </a>
+              </div>
+            </div>
+            <div class="about__map">
+              <iframe
+                src="https://yandex.ru/map-widget/v1/?um=constructor%3A43705c8df94a2e8698278d1d878d32cf56fc1c66527c06a3464fd34e0b08c326&amp;source=constructor"
+                width="100%"
+                height="391"
+                frameborder="0"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
